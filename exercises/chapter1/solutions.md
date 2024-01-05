@@ -301,7 +301,7 @@ type Review {
   stars: Float
   text: String
   user: User
-  business: Business
+  business: [Business]
 }
 ```
 
